@@ -1,0 +1,28 @@
+.my-grid {
+display: grid;
+grid-template-columns: repeat(7, 70px);
+grid-template-rows:repeat(6,70px);
+
+border: 3px solid rgb(214, 52, 52) ;
+width:calc(7*70) ;
+height:calc(6*70) ;
+justify-self: center;
+
+}
+
+.blue-box {
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-end: 5;
+    grid-column-end: 8;
+    background-color: lightblue;
+}
+ .green-box {
+     grid-column-start:1;
+     grid-row-start: 5;
+     grid-row-end: 7;
+     grid-column-end: 8;
+     background-color: rgb(85, 197, 10) ;
+     border: 50%;
+
+ }
